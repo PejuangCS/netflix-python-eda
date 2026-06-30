@@ -24,8 +24,18 @@ Proyek ini menjawab 3 pertanyaan bisnis utama melalui visualisasi data:
 
 ## 🔍 Fase 3: Feature Engineering (Mesin Pencari Film)
 Membangun purwarupa sistem rekomendasi film sederhana berbasis filter multi-kondisi (`multiple conditions filtering`) menggunakan Pandas.
+
+![Tampilan Mesin Pencari](app_search.png)
+
 * **Fitur:** Pengguna dapat memasukkan kata kunci "Kategori/Genre" dan "Tahun Rilis Minimal".
 * **Logika:** Menggunakan metode ekstraksi *string* (`str.contains()`) untuk mencari irisan teks genre secara dinamis dan menampilkan 5 rekomendasi teratas berdasarkan urutan perilisan paling baru.
+
+---
+
+## 📊 Analisis Interaktif (Streamlit Web App)
+Aplikasi web ini juga menyediakan filter dinamis untuk melihat komposisi konten di berbagai negara secara *real-time*.
+
+![Tampilan Visualisasi Negara](app_chart.png)
 
 ## 🚀 Cara Menjalankan Proyek Ini
 1. *Clone* repositori ini ke komputer lokal Anda.
